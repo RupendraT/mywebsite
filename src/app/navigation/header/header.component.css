@@ -1,0 +1,32 @@
+.mat-toolbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    height: 64px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .mat-toolbar span {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 16px;
+  }
+  
+  .mat-toolbar button {
+    margin-left: 16px;
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+  .menubar {
+    float: none;
+    position: relative;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .background {
+    background-color: darksalmon;
+  }
+  
